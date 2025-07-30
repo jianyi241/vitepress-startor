@@ -307,8 +307,8 @@ FLUSH PRIVILEGES;
 ```
 
 ## 常见问题
-
-> <span style="color:red;">**提示 ERROR 1820 (HY000) 错误**</span><br>
-> 该错误表明你需要在执行其他语句之前先重置你的密码，通常是发生在首次安装MySQL或者首次登录到MySQL时，MySQL要求用户在使用数据库之前更改临时密码。
-
-[转自[https://www.cnblogs.com/505donkey/p/17945759](https://www.cnblogs.com/505donkey/p/17945759)]
+::: warning
+<span style="color:orange;">**提示 ERROR 1820 (HY000) 错误**</span><br>
+该错误表明你需要在执行其他语句之前先重置你的密码，通常是发生在首次安装MySQL或者首次登录到MySQL时，MySQL要求用户在使用数据库之前更改临时密码。
+:::
+[原贴地址：[https://www.cnblogs.com/505donkey/p/17945759](https://www.cnblogs.com/505donkey/p/17945759)]

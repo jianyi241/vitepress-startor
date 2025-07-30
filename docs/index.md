@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "前端记录"
-  text: "记录一些前端有趣的和烦人的玩意"
+  name: "简逸Blog"
+  text: "作为一只进击的菜鸟，应当飞向何方"
   # tagline: My great project tagline
   actions:
     # - theme: brand

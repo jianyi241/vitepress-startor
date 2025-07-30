@@ -1,8 +1,8 @@
-# power shell无法使用npm命令问题
-### 问题原因：
+# Powershell无法使用npm命令问题
+### 问题原因
 在 PowerShell 中遇到 PSSecurityException 错误，提示无法使用 npm 命令，通常是由于执行策略限制导致的。
 
-### 解决方法：
+### 解决方法
 #### 更改 PowerShell 执行策略
 ```sh
 Set-ExecutionPolicy RemoteSigned

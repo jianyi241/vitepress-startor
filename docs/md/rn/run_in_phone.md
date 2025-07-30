@@ -1,4 +1,4 @@
-#运行到真机调试
+# 运行到真机调试
 
 ## 运行到Android手机
 此次使用手机为小米9SE
@@ -48,3 +48,6 @@ a66f0b9b        device
 <img src="../image/run_iphone1.png" width = "600px" />
 
 表示调试程序不被iPhone信任，需要进入iPhone设置依次进入“通用->VPN与设备管理->选择当前开发者APP->点击信任”，现在程序应该就可以运行到iPhone上了，摇晃iPhone点击**Open DevTools**可以在电脑端打开调试工具。
+
+如果Xcode 编译项目时报 <font color="red">**Command PhaseScriptExecution failed with a nonzero exit code**</font>，可进入**Target -> Build Phases**，勾选**For install builds only** 来解决。
+<img src="../image/run_iphone4.jpg" width = "600px" />

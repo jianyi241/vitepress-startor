@@ -1,6 +1,6 @@
 # CentOS7更换yum源
 
-### 163yum源：
+### 163yum源
 ::: tip
 使用之前请确保已经安装wget，如未安装请执行下面一条命令来安装 `yum install -y wget`
 :::
@@ -33,7 +33,7 @@ yum update
 
 ---
 
-### 阿里云yum源:
+### 阿里云yum源
 > 使用之前请确保已经安装wget，如未安装请执行下面一条命令来安装 yum install -y wget）
 
 1.备份当前yum源防止出现意外还可以还原回来
@@ -61,4 +61,4 @@ yum makecache
 yum update
 ```
 
-(转载自：https://www.cnblogs.com/tangsong41/p/14441845.html)
+[原贴地址：https://www.cnblogs.com/tangsong41/p/14441845.html]
