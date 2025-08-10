@@ -60,6 +60,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
+      { text: '优化', link: '/md/optimization/font-face.md' },
       { text: 'Javascript', link: '/md/javascript/issue.md' },
       {
         text: 'React Native',
@@ -73,6 +74,12 @@ export default defineConfig({
         text: 'Javascript',
         items: [
           { text: '一些Javascript相关问题', link: '/md/javascript/issue.md' },
+        ]
+      },
+      {
+        text: '优化',
+        items: [
+          { text: '前端加载自定义字体加载速度对比', link: '/md/optimization/font-face.md' },
         ]
       },
       {
