@@ -60,6 +60,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
+      { text: '架构', link: '/md/framework/index.md' },
       { text: '优化', link: '/md/optimization/font-face.md' },
       { text: 'Javascript', link: '/md/javascript/issue.md' },
       {
@@ -70,6 +71,12 @@ export default defineConfig({
     ],
 
     sidebar: [
+      {
+        text: '架构',
+        items: [
+          { text: '前端架构与渲染模式对比', link: '/md/framework/index.md' },
+        ]
+      },
       {
         text: 'Javascript',
         items: [
